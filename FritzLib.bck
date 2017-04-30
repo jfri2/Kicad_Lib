@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V_HLDP
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_FTDI
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_BUCK
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_USB
+D QFN64, 256K Flash, 32K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42385-SAM-L21-Datasheet.pdf
+$ENDCMP
+#
+$CMP SN74LVC1G04-Q1
+D Hex inverter
+$ENDCMP
+#
+#End Doc Library
