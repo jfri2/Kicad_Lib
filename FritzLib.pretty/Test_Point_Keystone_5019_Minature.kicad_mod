@@ -1,4 +1,4 @@
-(module Test_Point_Keystone_5019_Minature (layer F.Cu) (tedit 590A7CF6)
+(module Test_Point_Keystone_5019_Minature (layer F.Cu) (tedit 591274BE)
   (descr "SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
   (tags "Test Point")
   (attr virtual)
