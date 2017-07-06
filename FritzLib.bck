@@ -18,8 +18,42 @@ K ARM 32bit Microcontroller 48MHz CortexM0+
 F http://www.atmel.com/Images/Atmel-42385-SAM-L21-Datasheet.pdf
 $ENDCMP
 #
+$CMP AX5243
+D Sub GHz Xcvr
+$ENDCMP
+#
+$CMP SAMD20E15A-MU
+D QFN32, 32K Flash, 4K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20E16A-MU
+D QFN32, 64K Flash, 8K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20E17A-MU
+D QFN32, 128K Flash, 16K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD21E
+D QFN32, 16K Flash, 2K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
 $CMP SN74LVC1G04-Q1
 D Hex inverter
+$ENDCMP
+#
+$CMP TCA6424A
+D I2C Hub, 8 Channels, QFN-24
+K I2C Hub
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 $ENDCMP
 #
 #End Doc Library
