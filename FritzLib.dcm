@@ -4,6 +4,10 @@ $CMP +12V_HLDP
 K POWER, PWR
 $ENDCMP
 #
+$CMP +3V
+K POWER, PWR
+$ENDCMP
+#
 $CMP +3V3_FTDI
 K POWER, PWR
 $ENDCMP
@@ -64,6 +68,30 @@ $CMP AX5243
 D Sub GHz Xcvr
 $ENDCMP
 #
+$CMP LT1363
+D 70MHz, 1000V/µs Operational Amplifier
+K High-Speed High-Slew-rate OPAMP
+F http://cds.linear.com/docs/en/datasheet/1363fa.pdf
+$ENDCMP
+#
+$CMP MAX4104
+D Ultra-Low Offset Voltage Operational Amplifier
+K Low-Offset OPAMP
+F http://cdn-reichelt.de/documents/datenblatt/A200/OP07%23AD.pdf
+$ENDCMP
+#
+$CMP MAX4108
+D Ultra-Low Offset Voltage Operational Amplifier
+K Low-Offset OPAMP
+F http://cdn-reichelt.de/documents/datenblatt/A200/OP07%23AD.pdf
+$ENDCMP
+#
+$CMP OP077
+D Ultra-Low Offset Voltage Operational Amplifier
+K Low-Offset OPAMP
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP77.pdf
+$ENDCMP
+#
 $CMP SAMD20E15A-MU
 D QFN32, 32K Flash, 4K RAM, 48MHz, CortexM0+
 K ARM 32bit Microcontroller 48MHz CortexM0+
@@ -96,6 +124,11 @@ $CMP TCA6424A
 D I2C Hub, 8 Channels, QFN-24
 K I2C Hub
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP Transformer_Balun
+D Transformer, split primary, single secondary
+K transformer coil magnet
 $ENDCMP
 #
 #End Doc Library
