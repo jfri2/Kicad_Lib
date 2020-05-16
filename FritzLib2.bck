@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ATTENUATOR
-D Trim-Potentionmeter
-K resistor variable trimpot trimmer
-$ENDCMP
-#
-#End Doc Library
